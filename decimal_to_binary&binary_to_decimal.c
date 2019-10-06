@@ -18,7 +18,7 @@ int main()
     printf("1. For decimal to binary\n");
     printf("2. for binary to decimal\n");
     scanf("%d",&c);
-    printf("enter number to convert\n");
+    printf("enter number to be converted\n");
     scanf("%d",&n);
     if(c==1)
     {
@@ -28,7 +28,7 @@ int main()
         }
         else
         {
-            printf("The decimal -> binary is ");
+            printf("The decimal -> binary is : ");
             binary(n);
         }
     }
